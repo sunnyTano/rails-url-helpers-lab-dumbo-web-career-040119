@@ -6,7 +6,11 @@ class StudentsController < ApplicationController
   end
 
   def show
+<<<<<<< HEAD
     # @student = Student.find(params[:id])
+=======
+    @student = Student.find(params[:id])
+>>>>>>> e95127bec5c5e0c1e5e495cb35be21f36512e57e
   end
 
   def activate
